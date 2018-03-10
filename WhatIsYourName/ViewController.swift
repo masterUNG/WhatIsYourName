@@ -10,6 +10,34 @@ import UIKit
 
 class ViewController: UIViewController {
     
+//    Explicit
+    var nameString: String = ""
+    
+    
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    
+    
+    @IBAction func changeButton(_ sender: Any) {
+        
+//        Get Value From TextField
+        nameString = nameTextField.text!
+        
+//        Show Log
+        print("Name = \(nameString)")
+        
+//        Show Name on Label
+        nameLabel.text = nameString
+        nameTextField.text = ""
+        
+        
+    }   // changeButton
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
