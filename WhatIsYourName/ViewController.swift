@@ -13,13 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+    }   // Main Function คือ Func แรก ที่จะเริ่มทำงาน
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+    }   // นี่คื่อส่วนของการจัดการหน่วยความจำ
 
 
-}
+}   // Main Class
 
