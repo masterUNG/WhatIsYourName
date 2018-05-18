@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var nameString: String = ""
     
     
-    
     @IBOutlet weak var nameLabel: UILabel!
     
     
